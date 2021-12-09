@@ -1,0 +1,201 @@
+div#contenedor{
+	background-color: #93FAC8;
+	width: 1300px;
+	height: 1250px;
+	margin: auto;
+}
+div#cabeza{
+	width: 1300px;
+	height: 180px;
+	margin: 0px 0px 10px 0px;
+}
+img#fondo{
+	margin: 0px 0px 0px -4px;
+}
+img#logo2{
+	margin: 0px 0px 0px -4px;
+}
+div#navegar{
+	background-color: #0BE394;
+	width: 1000px;
+	height: 36px;
+	border-radius: 91px 91px 91px 91px;
+	-moz-border-radius: 91px 91px 91px 91px;
+	-webkit-border-radius: 91px 91px 91px 91px;
+	border: 0px solid #000000;
+	margin: auto;
+	padding: 10px 0px 0px 0px;
+}
+div#menu{
+	background-color: #0BE31A;
+	width: 105px;
+	height: 20px;
+	border-radius: 91px 91px 91px 91px;
+	-moz-border-radius: 91px 91px 91px 91px;
+	-webkit-border-radius: 91px 91px 91px 91px;
+	border: 0px solid #000000;
+	margin: 0px 0px 0px 65px;
+	padding: 4px 0px 0px 70px;
+}
+div#gal{
+	background-color: #0BE31A;
+	width: 110px;
+	height: 20px;
+	border-radius: 91px 91px 91px 91px;
+	-moz-border-radius: 91px 91px 91px 91px;
+	-webkit-border-radius: 91px 91px 91px 91px;
+	border: 0px solid #000000;
+	margin: -24px 0px 0px 300px;
+	padding: 4px 0px 0px 65px;
+}
+div#inicio{
+	background-color: #0BE31A;
+	width: 105px;
+	height: 20px;
+	border-radius: 91px 91px 91px 91px;
+	-moz-border-radius: 91px 91px 91px 91px;
+	-webkit-border-radius: 91px 91px 91px 91px;
+	border: 0px solid #000000;
+	margin: -24px 0px 0px 530px;
+	padding: 4px 0px 0px 70px;
+}
+div#reserva{
+	background-color: #0BE31A;
+	width: 125px;
+	height: 20px;
+	border-radius: 91px 91px 91px 91px;
+	-moz-border-radius: 91px 91px 91px 91px;
+	-webkit-border-radius: 91px 91px 91px 91px;
+	border: 0px solid #000000;
+	margin: -24px 0px 0px 765px;
+	padding: 4px 0px 0px 50px;
+}
+div#menu:hover{
+	background-color: #E60D05;
+}
+div#gal:hover{
+	background-color: #E60D05;
+}
+div#inicio:hover{
+	background-color: #E60D05;
+}
+div#reserva:hover{
+	background-color: #E60D05;
+}
+div#semana{
+	margin: 40px 0px 0px 100px;
+}
+div#lun{
+	width: 300px;
+	height: 270px;
+	margin: 0px 900px 0px 0px;
+}
+td#l{
+	background-color: red;
+	font: 125% sans-serif;
+}
+div#mar{
+	width: 300px;
+	height: 270px;
+	margin: -270px 0px 0px 400px;
+}
+td#m{
+	background-color: red;
+	font: 125% sans-serif;
+}
+div#mier{
+	width: 300px;
+	height: 270px;
+	margin: -269px 0px 0px 800px;	
+}
+td#mi{
+	background-color: red;
+	font: 125% sans-serif;
+}
+div#jue{
+	width: 300px;
+	height: 270px;
+	margin: 40px 0px 0px 0px;
+}
+td#j{
+	background-color: red;
+	font: 125% sans-serif;
+}
+div#vir{
+	width: 300px;
+	height: 270px;
+	margin: -270px 0px 0px 400px;
+}
+td#v{
+	background-color: red;
+	font: 125% sans-serif;
+}
+div#sab{
+	width: 300px;
+	height: 270px;
+	margin: -269px 0px 0px 800px;
+}
+td#s{
+	background-color: red;
+	font: 125% sans-serif;
+}
+div#dom{
+	width: 300px;
+	height: 270px;
+	margin: 40px 0px 40px 400px;
+}
+td#d{
+	background-color: red;
+	font: 125% sans-serif;
+}
+caption{
+	font: bold 200% cursive;
+}
+ul{
+	font: bold 100% serif;
+}
+td#l:hover{
+	background-color: yellow;
+}
+td#m:hover{
+	background-color: yellow;
+}
+td#mi:hover{
+	background-color: yellow;
+}
+td#j:hover{
+	background-color: yellow;
+}
+td#v:hover{
+	background-color: yellow;
+}
+td#s:hover{
+	background-color: yellow;
+}
+td#d:hover{
+	background-color: yellow;
+}
+div#piePag{
+	background-color: #00F2DE;
+	width: 1300px;
+	height: 190px;
+	margin: auto;
+}
+img#redes{
+	margin: 17px 0px 0px 1000px;
+}
+div#tel{
+	margin: -116px 0px 0px 450px;
+	font: 100% cursive;
+}
+div#correo{
+	margin: -90px 0px 0px 700px;
+	font: 100% cursive;
+}
+img#logoP{
+	margin: -123px 0px 0px 120px;
+}
+p#dir{
+	margin: 0px 0px 10px 5px;
+	font: 100% cursive;
+}

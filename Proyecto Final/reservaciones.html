@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reservaciones</title>
+	<link rel="stylesheet" type="text/css" href="estilosRes.css">
+</head>
+<body>
+	<div id="contenedor">
+		<div id="cabeza">
+			<img src="gal/logoN.png">
+			<img id="fondo"; src="gal/diversos.jpg"; width="784"; height="180">
+			<img id="logo2" src="gal/logoN.png">
+		</div>
+		<div id="navegar">
+			<div id="menu"><a href="menu.html">Menú</a>
+			</div>
+			<div id="gal"><a href="galeria.html">Galería</a>
+			</div>
+			<div id="promo"><a href="promo.html">Promociones</a>
+			</div>
+			<div id="inicio"><a href="index.html">Inicio</a>
+			</div>
+		</div>
+		<div id="contenido"> <!-- Para esta sección decidí crear un formulario (Sin funcionalidad) para simular que se están guardando los datos de los clientes -->
+			<form id="reg" method="post" enctype="text/plain">
+				Nombre: <input type="text" size="25" maxlength="30" value="" name="nombre"> <!-- Ocupé cuadros para introducir el texto -->
+				<br>
+				<br>
+				<br>
+				Apellido paterno: <input type="text" size="25" maxlength="30" value="" name="nombre">
+				<br>
+				<br>
+				<br>
+				Apellido materno: <input type="text" size="25" maxlength="30" value="" name="nombre">
+				<br>
+				<br>
+				<br>
+				Número de personas: <select name="Personas"> <!-- Ocupé cuadros de selección para que ponga el número de personas que van a asistir a la reservación -->
+					<option value="1">2</option>
+					<option value="2">3</option>
+					<option value="3">4</option>
+					<option value="4">5</option>
+					<option value="5">6</option>
+					<option value="6">7</option>
+					<option value="7">8</option>
+					<option value="8">9</option>
+					<option value="9">10</option>
+					<option value="10">11</option>
+					<option value="11">12</option>
+				</select>
+				<br>
+				<br>
+				<br>
+				<label for="start">Fecha: </label> <!-- También ocupé un calendario para que el cliente seleccione la fecha de reservación -->
+				<input type="date" id="start" name="trip-start"value=" " min="2021-01-01" max="2024-12-31">
+				<br>
+				<br>
+				<br>
+				Hora: <input type="text" size="25" maxlength="30" value="" name="nombre">
+				<br>
+				<br>
+				Correo: <input type="text" size="25" maxlength="30" value="" name="nombre">
+				<br>
+				<br>
+				<br>
+				<input type="Reset" value="Enviar"> <!-- Aquí ocupé un botón que originalmente sirve para borrar los datos del formulario, yo lo pusé para emular un botón para enviar datos.-->
+			</form>
+			<div id="horario"> <!-- Aquí ocupé otra tabla para poner la información de los horarios. -->
+				<table border="5">
+					<tr>
+						<td>
+							Nuestros horarios son:
+							<br>
+							Miércoles - Domingo
+							<br>
+							9:00 am - 5:00pm
+							<br>
+							Lunes y Martes
+							<br>
+							10:00 am - 4:00pm
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="piePag"> 
+			<div id="redes">
+				<map name="redesMap">
+					<area shape="rect" coords="7,34,62,91" href="https://www.facebook.com/" target="_Blank">
+					<area shape="rect" coords="74,37,126,90" href="https://www.instagram.com/?hl=es-la" target="_Blank">
+					<area shape="rect" coords="139,34,199,90" href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_Blank">
+				</map>
+				<img id="redes" src="gal/redes.jpg"; width="200px"; height="116px" usemap="#redesMap">
+			</div>
+			<div id="tel">
+				<h3>Teléfono:</h3>
+				<h3>56-12-98-45-65</h3>
+			</div>
+			<div id="correo">
+				<h3>Correo:</h3>
+				<h3>eltibumariscos@gmail.com</h3>
+			</div>
+			<img id="logoP" src="gal/logoN.png" width="200px" height="140px">
+			<p id="dir">
+				Visitanos en: C. Nte. 7 4942, Panamericana, Gustavo A. Madero, 07770 Ciudad de México, CDMX. **Pagina creada por Josué para Programación Web 1, FES Aragón UNAM.**
+			</p>
+		</div>
+	</div>
+</body>
+</html>
